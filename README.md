@@ -1,26 +1,11 @@
-# scaffold-sui
+# blog 应用
 
-One forkable Sui dev stack focused on fast product iterations.
-It helps you build one dapp much faster and efficiently. 🚀
+基于sui 构建一个博客应用
 
-## Create one dapp with scaffold-sui
+## 快速构建应用
 
 ```shell
-npx create-move-app sui-demo --chain sui
+npx create-move-app blog --chain sui 
 ```
 
-## Develop with source code
-
-1. git clone <https://github.com/NonceGeek/scaffold-sui.git>
-2. cd scaffold-move
-3. yarn
-4. cat .env.local.example
-
-    NEXT_PUBLIC_DAPP_PACKAGE  address of your sui module
-    NEXT_PUBLIC_DAPP_MODULE sample module name
-5. yarn dev
-6. yarn build # build for production.
-
-## Finally
-
-This product is mainly maintenance under [NonceGeek DAO](https://noncegeek.com/#/).
+将在当前目录生成blog 的项目目录，智能合约在 move 文件夹内，请按照自己的情况修改 Move.toml文件
